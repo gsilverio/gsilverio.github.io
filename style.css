@@ -1,0 +1,107 @@
+body{
+    background-image: url(src/c8088aff30c2f7b7c973176f25912f8a.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin: 0px;
+}
+
+.catJam1{
+    width: 300px;
+    
+}
+
+
+.catJam{
+    width: 300px;
+    position: absolute;
+    
+}
+.clap
+{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    width: 200px;
+}
+
+.clap1
+{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    width: 200px;
+
+}
+.stromgy{
+    position: absolute;
+    top: 450px;
+    left: 800px;
+}
+.clap2
+{
+    top: 200px;
+    left: 250px;
+    width: 200px;
+}
+.catJam3
+{
+    position: absolute;
+    left:1600px;
+}
+
+.catJam5
+{
+    position: absolute;
+    left: 1600px;
+}
+
+.catJam2
+{
+    position: absolute;
+    left: 1600px;
+}
+
+.laden{
+    position: absolute;
+    left: 400px;
+    bottom: 800px;
+}
+
+.laden2{
+    position: absolute;
+    left: 1350px;
+    bottom: 800px;
+}
+
+.pug{
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+
+.pug2{
+    position: absolute;
+    left: 1350px;
+    top: 200px;
+}
+.peppojam
+{
+    position: absolute;
+    top: 800px;
+    left: 300px;
+}
+
+.firew{
+
+    position: absolute;
+    top:400px;
+    right: 200px;
+}
+
+.firew2{
+
+    position: absolute;
+    top:100px;
+    right: 1250px;
+}
