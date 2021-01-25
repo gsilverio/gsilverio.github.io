@@ -1,99 +1,35 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
-<HTML>
-   <HEAD>
-      <TITLE>JP BDAY</TITLE>]
-      <meta charset="utf-8"> 
-      <link rel="stylesheet" href="style.css">
-   </HEAD>
-   <BODY>
-      
-      <div class="catJam2"> 
-         <img class= "catJam1" src="src/3x.gif" alt="">
-      </div>
 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        
+        <form class="box" action="index.html" method="post">
+            <h1>BAD DAY?</h1>
+           
+            <audio id="button" src="wpp.mp3"></audio>
 
-      <div class="catJam1"> 
-         <img class= "catJam1" src="src/3x.gif" alt="">
-      </div>
+            <input class="button" type="button" name="button" value="ÉAN">
 
-      <div class="catJam3"> 
-         <img class= "catJam1" src="src/3x.gif" alt="">
-      </div>
+            <script>
+                const button = document.querySelector('input')
+                button.addEventListener('click', function(){
+                    const audio = document.querySelector('audio')
+                    audio.play()
+                })
+                var aud = document.getElementById("button")
+                aud.onended = function(){
+                    alert("NOT ANYMORE!");
+                }
+            </script>
+        </form>
+        
 
-      <div class="catJam4"> 
-         <img class= "catJam1" src="src/3x.gif" alt="">
-      </div>
-      
-      <div class="catJam5"> 
-         <img class= "catJam1" src="src/3x.gif" alt="">
-      </div>
-
-      <div class="catJam"> 
-         <img class= "catJam" src="src/3x.gif" alt="">
-      </div>
-
-      <div class="clap">
-         <img class="clap" src="src/clap.gif" alt="">
-      ></div>
-      
-      <div class="clap2">
-         <img class="clap2" src="src/clap.gif" alt="">
-      ></div>
-
-      <div class="clap1">
-         <img class="clap1" src="src/clap.gif" alt="">
-      ></div>
-
-      <div class="stromgy">
-         <img src="src/strongP.png" alt="">
-      </div>
-
-      <div class="laden">
-
-         <img src="src/laden.gif" alt="">
-
-      </div>
-
-      <div class="laden2">
-
-         <img src="src/laden.gif" alt="">
-
-      </div>
-
-      <div class="pug" > 
-         <img src="./src/pug.gif" alt="">
-
-      </div>
-      <div class="pug2" > 
-         <img src="./src/pug.gif" alt="">
-
-      </div>
-
-      <div class="peppojam">
-         <img src="./src/peppojam.gif" alt="">
-         <img src="./src/peppojam.gif" alt="">
-         <img src="./src/peppojam.gif" alt="">
-         <img src="./src/peppojam.gif" alt="">
-         <img src="./src/peppojam.gif" alt="">
-         <img src="./src/peppojam.gif" alt="">
-         <img src="./src/peppojam.gif" alt="">
-         <img src="./src/peppojam.gif" alt="">
-         <img src="./src/peppojam.gif" alt="">
-         <img src="./src/peppojam.gif" alt="">
-
-      </div>
-
-      <div class="firew">
-         <img src="./src/firew.gif" alt="">
-      </div>
-
-      <div class="firew2">
-         <img src="./src/firew.gif" alt="">
-      </div>
-
-
-
-      <audio src="_.mp3" autoplay></audio>
-   </BODY>
-</HTML>
+    </body>
+</html>
