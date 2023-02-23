@@ -1,0 +1,18 @@
+.navbar-container {
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  padding-left: 10px;
+  height: 70px;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 15px;
+  width: 300px;
+  justify-content: space-around;
+}
+.menu-navbar {
+  display: flex;
+  justify-content: end;
+}

@@ -1,0 +1,13 @@
+.service-price-container {
+  display: flex;
+}
+
+.service-price-container span {
+  font-size: 18px;
+  color: #9e9e9e;
+  margin-top: 4px;
+}
+.service-price-container h3 {
+  font-size: 32px;
+  color: #000;
+}

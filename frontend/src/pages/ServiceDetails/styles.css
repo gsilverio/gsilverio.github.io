@@ -1,0 +1,40 @@
+.service-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px 0 20px;
+}
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-container {
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #e1e1e1;
+}
+.img-container img {
+  width: 100%;
+}
+.name-price-container {
+  flex: 2;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+.serviceName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceName h3 {
+  font-size: 60px;
+}
