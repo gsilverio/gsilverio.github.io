@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/akira-expanded");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --text-color: #fff;
+  --bg-content2: #f5b715;
+}
+
+.base-card {
+  text-align: start;
+  width: 300px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.8);
+  float: left;
+  margin-left: 30px;
+
+  border-radius: 10%;
+}
+
+.navbar-container {
+  padding-left: 10vh;
+  padding-right: 10vh;
+  background-color: #000;
+  height: 100px;
+  text-align: center;
+}
+
+.img-container {
+  width: auto;
+  height: 70px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-container {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu-container ul {
+  list-style: none;
+}
+.menu-container li {
+  margin-right: 30px;
+  float: left;
+}
+.menu-container a {
+  font-size: 15spx;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.text-content-1 {
+  text-align: justify;
+  justify-content: flex-start;
+}
+
+#main-content1 {
+  position: relative;
+}
+
+#main-content1 img {
+  width: 100%;
+}
+#testid {
+  position: absolute;
+  color: var(--text-color);
+  z-index: 1;
+  left: 10%;
+}
+
+#testid h1 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 12rem;
+  letter-spacing: 2vh;
+}
+
+#testid p {
+  font-size: x-large;
+  padding-left: 1rem;
+  letter-spacing: 1.1vh;
+  font-weight: bold;
+}
+
+#main-content2 {
+  position: relative;
+  background-color: var(--bg-content2);
+  height: 260px;
+}
+
+.image-content2 {
+  position: absolute;
+  padding-top: 15px;
+  left: 29em;
+  letter-spacing: 18vh;
+  z-index: 1;
+}
+
+.image-content2 img {
+  height: 230px;
+}
+
+#text-content-2 {
+  position: absolute;
+  left: 10%;
+  z-index: 2;
+}
+
+#text-content-2 h1 {
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 15em;
+  letter-spacing: 0.5em;
+}
+
+.spec-text {
+  text-align: center;
+  padding-left: 40vh;
+
+  height: 175px;
+}
+
+.spec-text-content {
+  padding-top: 30px;
+  margin-left: 13vh;
+  float: inline-start;
+  height: auto;
+  width: 200px;
+}
+
+.main-content3 {
+  position: relative;
+  height: 488px;
+  background-color: #000;
+}
+
+.img-content3 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 4;
+}
+
+.img-content3 img {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+.text-content-3 {
+  float: right;
+  margin-right: 8em;
+  margin-top: 2em;
+}
+
+.text-content-3 h1 {
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.text-content-3 p {
+  width: 27em;
+  color: var(--text-color);
+}
+
+/*  */
+
+.main-content4 {
+  position: relative;
+  width: 100%;
+  height: 488px;
+  background-color: #000;
+}
+
+.main-content4 img {
+  float: right;
+  width: 50%;
+  height: auto;
+}
+.text-content-4 {
+  text-align: center;
+  float: left;
+  width: 59em;
+}
+
+.text-content-4 h1 {
+  margin-left: 7.5em;
+  margin-top: 1em;
+  margin-bottom: 0;
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 5em;
+  letter-spacing: 0.1em;
+}
+
+.text-content-4 h3 {
+  width: max-content;
+  margin-left: 20.2em;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+.text-content-4 p {
+  text-align: end;
+  width: 800px;
+  margin-top: 0.5em;
+  margin-left: 18.5em;
+  color: var(--text-color);
+  letter-spacing: 0.1em;
+}
+
+.main-content5 {
+  position: relative;
+  width: 100%;
+  height: 488px;
+}
+
+.main-content5 img {
+  float: left;
+  width: 50%;
+  height: 488px;
+}
+
+.text-content-5 {
+  float: right;
+  width: 57em;
+  margin-top: 5em;
+}
+
+.text-content-5 h1 {
+  margin-bottom: 0;
+  color: #000;
+  text-transform: uppercase;
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 4em;
+}
+
+.text-content-5 p {
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.text-content-5 span {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(229, 182, 49);
+}
+/*  */
+
+.main-content6 {
+  position: relative;
+  width: 100%;
+  height: 488px;
+}
+
+.main-content6 img {
+  float: right;
+  width: 50%;
+  height: 488px;
+}
+
+.text-content-6 {
+  text-align: end;
+  float: left;
+  width: 57em;
+  margin-top: 5em;
+}
+
+.text-content-6 h1 {
+  margin-bottom: 0;
+  color: #000;
+  text-transform: uppercase;
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 4em;
+}
+
+.text-content-6 p {
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.text-content-6 span {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(229, 182, 49);
+}
+
+/*  */
+
+.main-content7 {
+  position: relative;
+  width: 100%;
+  height: 488px;
+}
+
+.main-content7 img {
+  float: left;
+  width: 50%;
+  height: 488px;
+}
+
+.text-content-7 {
+  text-align: start;
+  float: right;
+  width: 57em;
+  margin-top: 5em;
+}
+
+.text-content-7 h1 {
+  margin-bottom: 0;
+  color: #000;
+  text-transform: uppercase;
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 4em;
+}
+
+.text-content-7 p {
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.text-content-7 span {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(229, 182, 49);
+}
+
+/*  */
+
+.main-content8 {
+  background-color: #f5b715;
+  width: 100%;
+  height: 450px;
+}
+
+.text-content-8 {
+  text-align: center;
+}
+
+.text-content-8 h1 {
+  position: absolute;
+  left: 5%;
+  margin-bottom: 0;
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 12em;
+  letter-spacing: 0.1em;
+  z-index: 1;
+}
+
+.content-card {
+  position: relative;
+  width: 80%;
+  top: 35%;
+  left: 10%;
+  clear: both;
+}
+
+.card-info-container {
+  padding: 30px;
+  float: left;
+}
+
+/*  */
+
+.footer-container {
+  height: 50px;
+
+  background-color: #000;
+}
+.icon-content {
+  position: relative;
+  text-align: center;
+  top: 20%;
+  left: 42%;
+  width: 300px;
+}
+
+.icon-content img {
+  height: 30px;
+  margin-right: 15px;
+}
