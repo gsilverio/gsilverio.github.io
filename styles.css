@@ -132,11 +132,18 @@ body {
 }
 
 .spec-text-content {
+  text-align: start;
   padding-top: 30px;
   margin-left: 13vh;
   float: inline-start;
   height: auto;
   width: 200px;
+}
+.spec-text-content h3 {
+  font-family: "Akira Expanded", sans-serif;
+}
+.spec-text-content p {
+  font-weight: bold;
 }
 
 .main-content3 {
