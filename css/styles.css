@@ -138,6 +138,10 @@ body {
   height: auto;
   width: 200px;
 }
+.spec-text-content h3 {
+  font-family: "Akira Expanded", sans-serif;
+  margin: 0;
+}
 
 .main-content3 {
   position: relative;
