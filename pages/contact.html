@@ -19,23 +19,45 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/indexContact.css" />
+    <script src="../js/script.js"></script>
     <title>Document</title>
   </head>
   <body>
     <nav class="navbar navbar-container">
       <div class="img-container">
-        <a href="/"><img src="/assets/logo.png" alt="logo" /></a>
+        <a href="index.html"><img src="/assets/logo.png" alt="logo" /></a>
       </div>
       <div class="menu-container">
         <ul>
-          <li><a href="/about.html">sobre</a></li>
+          <li>
+            <a href="./contact.html">contato</a>
+          </li>
+          <li><a href="" onclick="handlePageNotMade()">sobre</a></li>
           <li><a href="" onclick="handlePageNotMade()">produtos</a></li>
           <li><a href="" onclick="handlePageNotMade()">portfolio</a></li>
-          <li><a href="" onclick="handlePageNotMade()">contato</a></li>
         </ul>
       </div>
     </nav>
+    <main>
+      <section class="form-main-container">
+        <form class="info-form-container" onsubmit="handleFormClick(event)">
+          <h2>Contato</h2>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+          <button type="submit">
+            <h4>Enviar</h4>
+          </button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
