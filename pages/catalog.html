@@ -1,0 +1,86 @@
+<section id="catalog-section">
+  <div class="catalog-content">
+    <div class="item-menu-container" id="item-menu-container">
+      <div class="icons-bg">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="#000"
+            class="bi bi-plus-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"
+            />
+          </svg>
+        </a>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Adicionar Item
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form
+                  onsubmit="handleSubmit(event)"
+                  class="form-insert-container"
+                >
+                  <label class="label-insert">
+                    <h4>Nome</h4>
+                    <input type="text" name="nome" />
+                  </label>
+                  <label class="label-insert">
+                    <h4>Descricao</h4>
+                    <input type="text" name="descricao" />
+                  </label>
+                  <label class="label-insert">
+                    <h4>Url</h4>
+                    <input type="text" name="url" />
+                  </label>
+                  <label class="label-insert">
+                    <h4>Valor</h4>
+                    <input type="text" name="valor" />
+                  </label>
+                  <label class="label-insert">
+                    <h4>Tipo</h4>
+                    <input type="text" name="tipo" />
+                  </label>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Fechar
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                      Salvar
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="items-container" class="row row-cols-4"></div>
+  </div>
+</section>
