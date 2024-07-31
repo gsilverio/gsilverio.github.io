@@ -23,21 +23,21 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/indexContact.css" />
-    <link rel="stylesheet" href="./css/loginStyle.css" />
-    <link rel="stylesheet" href="./css/catalogStyle.css" />
-    <link rel="stylesheet" href="./css/editItemContainer.css" />
-    <link rel="stylesheet" href="./css/sobre.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/indexContact.css" />
+    <link rel="stylesheet" href="/css/loginStyle.css" />
+    <link rel="stylesheet" href="/css/catalogStyle.css" />
+    <link rel="stylesheet" href="/css/editItemContainer.css" />
+    <link rel="stylesheet" href="/css/sobre.css" />
 
-    <script src="./js/script.js"></script>
+    <script src="/js/script.js"></script>
 
     <title>Migo</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-xl navbar-container">
       <div class="navbar-logo">
-        <a href="#" onclick="loadPages('pages/home.html')"
+        <a href="#" onclick="loadPages('/pages/home.html')"
           ><img src="/assets/logo.png" alt="logo"
         /></a>
       </div>
@@ -61,14 +61,16 @@
         </div>
         <div class="offcanvas-body">
           <ul>
-            <li><a href="#" onclick="loadPages('pages/home.html')">Home</a></li>
-            <li>|</li>
             <li>
-              <a href="#" onclick="loadPages('pages/contact.html')">contato</a>
+              <a href="#" onclick="loadPages('/pages/home.html')">Home</a>
             </li>
             <li>|</li>
             <li>
-              <a href="#" onclick="loadPages('pages/sobre.html')">sobre</a>
+              <a href="#" onclick="loadPages('/pages/contact.html')">contato</a>
+            </li>
+            <li>|</li>
+            <li>
+              <a href="#" onclick="loadPages('/pages/sobre.html')">sobre</a>
             </li>
             <li>|</li>
             <li>
@@ -79,8 +81,8 @@
         </div>
 
         <div id="icon-container">
-          <a id="icon-login" href="#" onclick="loadPages('pages/login.html')"
-            ><img src="./assets/user.png" alt=""
+          <a id="icon-login" href="#" onclick="loadPages('/pages/login.html')"
+            ><img src="/assets/user.png" alt=""
           /></a>
           <a id="icon-logout" href="#" onclick="logout()"
             ><svg
