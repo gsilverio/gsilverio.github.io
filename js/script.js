@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     db.init();
     localStorage.setItem("isInitialized", true);
   }
-  fetch("pages/home.html")
+  fetch("home.html")
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("pages-content").innerHTML = data;
@@ -237,29 +237,20 @@ function renderItems(items) {
                   <h5 class="modal-title" id="editModalLabel">Edit Item</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body ">
                   <form id="editForm" class="form-insert-container">
-                    <input type="hidden" id="itemId">
-                    <div class="mb-3">
-                      <label for="itemName" class="form-label">Name</label>
-                      <input type="text" class="form-control" id="itemName" name="nome">
-                    </div>
-                    <div class="mb-3">
-                      <label for="itemDescricao" class="form-label">Descricao</label>
-                      <input class="form-control" id="itemDescricao" name="descricao"></input>
-                    </div>
-                    <div class="mb-3">
-                      <label for="itemValue" class="form-label">Value</label>
-                      <input type="text" class="form-control" id="itemValue" name="valor">
-                    </div>
-                    <div class="mb-3">
-                      <label for="itemUrl" class="form-label">Url</label>
-                      <input type="text" class="form-control" id="itemUrl" name="url">
-                    </div>
-                    <div class="mb-3">
-                      <label for="itemTipo" class="form-label">Tipo</label>
-                      <input type="text" class="form-control" id="itemTipo" name="tipo">
-                    </div>
+                      <input type="hidden" id="itemId">
+
+                      <label for="itemName" class="label-insert">Name<input type="text" class="form-control" id="itemName" name="nome"></label>
+                  
+                      <label for="itemDescricao" class="label-insert">Descricao<input class="form-control" id="itemDescricao" name="descricao"></input></label>
+                  
+                      <label for="itemValue" class="label-insert">Value<input type="text" class="form-control" id="itemValue" name="valor"></label>
+                  
+                      <label for="itemUrl" class="label-insert">Url<input type="text" class="form-control" id="itemUrl" name="url"></label>
+
+                      <label for="itemTipo" class="label-insert">Tipo<input type="text" class="form-control" id="itemTipo" name="tipo"></label>
+                      
                   </form>
                 </div>
                 <div class="modal-footer">
@@ -281,7 +272,7 @@ function renderItems(items) {
       <div class="image-container">
           <img src="${x.url}" alt="">
       </div>
-      <div>
+      <div class="info-catalog-container">
         <h3>${x.name}</h3>
         </br>
         <h3>R$ ${x.value}</h3>

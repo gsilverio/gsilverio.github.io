@@ -5,24 +5,33 @@
   --text-color: #fff;
   --bg-content2: #f5b715;
 }
+.contact-container {
+  background-image: url("../assets/bg1.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 89.4vh;
+}
 
 .form-main-container {
-  width: 800px;
-  height: 500px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  max-width: 1000px;
   background-color: var(--bg-content2);
-  position: relative;
-  margin: 0 auto;
-  margin-top: 10%;
+  margin: 2%;
   border-radius: 2%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
+
 .info-form-container {
+  width: 100%;
+
   padding: 30px;
 }
 
 form h2 {
   font-family: "Akira Expanded", sans-serif;
-
   letter-spacing: 3px;
   text-align: center;
   margin-bottom: 80px;
@@ -34,16 +43,15 @@ form h2 {
 }
 
 label {
-  float: left;
-  width: 100px;
   font-weight: bold;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-  float: left;
-  width: calc(100% - 110px);
+  width: 100%;
+  display: flex;
+
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
