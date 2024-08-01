@@ -37,7 +37,7 @@
   <body>
     <nav class="navbar navbar-expand-xl navbar-container">
       <div class="navbar-logo">
-        <a href="#" onclick="loadPages('/pages/home.html')"
+        <a href="#" onclick="loadPages('home.html')"
           ><img src="/assets/logo.png" alt="logo"
         /></a>
       </div>
@@ -74,14 +74,16 @@
             </li>
             <li>|</li>
             <li>
-              <a href="#" onclick="loadPages('pages/catalog.html')">produtos</a>
+              <a href="#" onclick="loadPages('/pages/catalog.html')"
+                >produtos</a
+              >
             </li>
             <li>|</li>
           </ul>
         </div>
 
         <div id="icon-container">
-          <a id="icon-login" href="#" onclick="loadPages('/pages/login.html')"
+          <a id="icon-login" href="#" onclick="loadPages('login.html')"
             ><img src="/assets/user.png" alt=""
           /></a>
           <a id="icon-logout" href="#" onclick="logout()"

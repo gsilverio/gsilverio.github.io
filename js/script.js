@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     db.init();
     localStorage.setItem("isInitialized", true);
   }
-  fetch("home.html")
+  fetch("/pages/home.html")
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("pages-content").innerHTML = data;
